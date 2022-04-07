@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/PageScripts/JavaScript.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <div class="card">
+        <div class="navbar">
+
+            <h1>F I E L D<span id="groov"> G R O O V E</span></h1>
+            <a href="#">FEATURES</a>
+            <a href="#" class="dropdown">
+                INDUSTRIES
+                <i class="fa fa-caret-down"></i>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </a>
+            <a href="#">FAQS</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">SIGN UP</a>
+            <button id="button" type="submit">LOGIN</button>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="container">
+
+                <form>
+                    <div class="form-group">
+                        <label for="email" class="text-white"> UserName</label>
+                        <input type="text" class="form-control" id="txtUserName">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd" class="text-white">Password</label>
+                        <input type="password" class="form-control" id="txtPassword">
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label text-white" style="font-size: small;">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class=" btn-sm  button">Forget Password?</button>
+                    <button  class="btn-sm btn-primary" onclick="GetLogin()"> Login <i class="fa fa-caret-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <ul class="mini-links login">
+            <li class="item">
+
+                <a href="">FEATURES | </a>
+            </li>
+
+            <li class="item">
+                <a href="">FAQS | </a>
+            </li>
+            <li class="item">
+                <a href="">CONTACT US | </a>
+            </li>
+            <li class="item">
+                <a href="">LOGIN | </a>
+            </li>
+            <li class="item">
+                <a href="">SIGN UP </a>
+            </li>
+        </ul>
+
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-6" style="float:left;margin-left: 200PX;">
+                    <h2>F I E L D G R O O V E</h2>
+                    <P style="font-size: 13px;
+           font-weight: 400; color: rgba(255, 255, 255, 0.5);">
+                        © FieldGroove, LLC 2022. All Rights Reserved.<br>
+                        716 Newman Springs Road, Suite 307 Lincroft, NJ 07738<br>
+                        <a href="" style="color:rgb(187, 70, 15)">Privacy Policy</a>
+                    </P>
+                </div>
+                <div class="col-3" style="margin-right: 100px;">
+                    <P style="font-size: 13px;
+        font-weight: 400; color: rgba(255, 255, 255, 0.5);">
+                        would love to show you the power of FieldGroove. To setup<br>
+                        a demo or get an account setup, please contact us at<br>
+                        <a href="" style="color:rgb(187, 70, 15)">sales@fieldgroove.com</a>
+                        or by phone at <a href="" style="color:rgb(187, 70, 15)">212-537-0218</a>
+                    </P>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    
+</body>
+</html>
+
+
